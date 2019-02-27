@@ -8,7 +8,7 @@ namespace EJERCICIO_2
 {
     class Program
     {
-        static int n1, n2, x, y, op = 0, opD = 0;
+        static int n1, n2, op = 0, opD = 0;
         static void Main(string[] args)
         {
             leer();
