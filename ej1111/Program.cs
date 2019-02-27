@@ -10,7 +10,17 @@ namespace ej1111
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("helouda");
+            Leer();
+        }
+
+        private static void Leer()
+        {
+            Console.WriteLine("INGRESE SU NOMBRE USUSARIO");
+            String nom = Console.ReadLine();
+            Console.WriteLine("ingrese número de filas");
+            int numF = int.Parse(Console.ReadLine());
+            Console.WriteLine("ingrese número de filas");
+            int numC = int.Parse(Console.ReadLine());
         }
     }
 }
